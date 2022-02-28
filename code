@@ -1,0 +1,11 @@
+n = 1
+while n <= 100:
+    if n % 15 == 0:
+        print('Fifteen ',end=(' '))
+    elif n % 5 == 0:
+        print('Five',end=(' '))
+    elif n % 3 == 0:
+        print('Tree', end=(' '))
+    else:
+        print(n, end=(' '))
+    n = n + 1
